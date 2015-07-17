@@ -1,0 +1,237 @@
+html, body {
+    font-size:12pt;
+    background-color: #EEEEEE;
+    color: #333333;
+    font-family: "Trebuchet MS",Trebuchet,serif;
+
+    line-height: 1.4;
+}
+
+input[type=text], input[type=password], .field, textarea , #captchaimage  {
+    border-top: 1px solid #b2b9c3;
+    border-left:  1px solid #b2b9c3;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+
+#captchaimage, .field {
+    border: 1px solid #b2b9c3;
+}
+
+.adminbar {
+    clear:both;
+    float:right;
+    font-size: .8em;
+}
+.adminbar a {
+    font-weight: bold;
+}
+.logo {
+    text-align: left;
+}
+.logo a, .logo a:hover, .logo a:visited {
+    color: #ff6600;
+    font-size: 2em;
+    font-weight: 700;
+}
+.theader, .passvalid, .replymode {
+    background:#DDDDDD;
+    text-align:center;
+    padding:2px;
+    color:#2266AA;
+    clear: both;
+    font-weight: bold;
+    margin-bottom: .5em;
+    border: solid 1px #CCCCCC;
+}
+
+.replymode a {
+    font-weight: normal;
+}
+
+/* spoilers */
+a, .spoiler:hover a, .unspoiler a { color: #FF6600; }
+
+a:hover, .spoiler:hover a:hover, .unspoiler a:hover {
+    color: #0066FF;
+}
+.spoiler:Hover { color: #333333; }
+.spoiler a:Hover { color: #0066FF; }
+
+.spoiler, .unspoiler {
+    background-color: #BBBBBB;
+}
+.spoiler, .spoiler a, .spoiler .diceroll {
+    color: #BBBBBB;
+    border: none;
+}
+
+.unspoiler, .unspoiler .diceroll {
+    color: inherit;
+}
+
+/* spoilers end */
+
+
+.rules {
+    font-size:0.8em;
+}
+.rules ul{
+    width:85%;
+    margin: 0 auto;
+}
+.postblock {
+    background:transparent;
+    color:#002244;
+    font-weight:bold;
+}
+.footer {
+    text-align:center;
+    font-size:12px;
+    font-family:serif;
+    margin: 1em 0 0 0;
+}
+.dellist {
+    font-weight: bold;
+    text-align:center;
+}
+.delbuttons {
+    text-align:center;
+    padding-bottom:4px;
+}
+.managehead {
+    background:#DDDDDD;
+    color:#002244;
+    padding:0px;
+}
+.postlists {
+    background:#FFFFFF;
+    width:100%;
+    padding:0px;
+    color:#800000;
+}
+.row1 {
+    background:#DDDDDD;
+    color:#002244;
+}
+.row2 {
+    background:#CCCCCC;
+    color:#002244;
+}
+.unkfunc {
+    background:inherit;
+    color:#789922;
+}
+.reflink {
+    font-size: .8em;
+    font-weight: bold;
+}
+.filesize {
+    text-decoration:none;
+    color: #666666;
+    font-size: .8em;
+}
+.filetitle {
+    background:inherit;
+    font-size:1.2em;
+    color:#002244;
+    font-weight:bold;
+}
+/*
+.postername {
+        color:#004A99;
+        font-weight:bold;
+}
+*/
+.postertrip {
+    color: #228854
+}
+.oldpost {
+    color:#CC1105;
+    font-weight:bold;
+}
+.omittedposts {
+    color:#666666;
+}
+.reply {
+    background:#DDDDDD;
+    border: solid 1px #CCCCCC;
+}
+blockquote {
+    margin: .5em .5em .5em 1em;
+}
+blockquote p {
+    margin: 0 0 1em 0;
+    padding: 0; 
+}
+.reply blockquote {
+    margin: .5em;
+}
+.doubledash {
+    display: none;
+    vertical-align:top;
+    clear:both;
+    float:left;
+}
+.replytitle {
+    font-size: 1.2em;
+    color:#002244;
+    font-weight:bold;
+}
+.commentpostername {
+    color:#004A99;
+    font-weight:800;
+}
+.thumbnailmsg {
+    font-size: .7em;
+    color:#666666;
+}
+hr {
+    border-style: solid none none none;
+    border-width: 1px;
+    border-color: #BBBBBB;
+}
+table {
+    border-style: none;
+}
+table td {
+    border-style: none;
+}
+.nothumb {
+    background-color: #FFFFFF;
+    border-style: dotted;
+    margin: .3em .5em;
+}
+.abbrev {
+    color:#666666;
+}
+.highlight {
+    background:#EEDACB;
+    color:#333333;
+    border: 2px dashed #EE6600;
+}
+
+dl.menu dt {
+    background:#DDDDDD;
+    border: solid 1px #CCCCCC;
+    margin-top: 1em;
+    padding-left: .5em;
+    cursor: pointer;
+
+}
+dl.menu dd {
+    margin-left: .5em;
+    padding-left: .5em;
+    border-left: solid 1px #CCCCCC;
+}
+
+.triangle {
+    border-bottom-color: #bbb;
+}
+
+.blog {
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+}
+

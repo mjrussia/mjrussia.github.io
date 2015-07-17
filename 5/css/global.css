@@ -1,0 +1,402 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: .9em;
+    margin-bottom: auto;
+}
+html, body { min-height: 100%; }
+
+input, select, textarea, button{font-family:inherit;}
+
+a {
+    outline : none;
+}
+
+input[type=text], input[type=password], .field, textarea , #postform input, #postform select, #loginform input, #loginform textarea, #loginform select {
+    margin: 1px 0;
+    padding: 2px 0; 
+}
+
+#postform input[type="submit"] {
+    margin: 0;
+    padding: 0;
+}
+
+
+blockquote blockquote {
+    margin-left: 0em;
+
+}
+
+pre.ascii {
+    font-family:'MS PGothic', IPAMonaPGothic, Mona;
+    font-size:12pt;
+}
+
+form {
+    margin-bottom: 0px;
+}
+form#postform td {
+    text-align: left;
+}
+form#postform textarea {
+    resize:both;
+}
+img#captchaimage {
+    cursor: pointer;
+}
+.postarea {
+    text-align: center;
+}
+
+.postarea table {
+    margin: 0px auto;
+    text-align: left;
+}
+td.postblock {
+    padding:.1em;
+    padding-right:.5em;
+    padding-left: .2em;
+}
+
+.aa {
+    white-space: pre;
+    text-align: left;
+    font-family: IPAMonaPGothic, Mona, 'MS PGothic', YOzFontAA97 !important;
+}
+
+.thumb {
+    border: none;
+    float: left;
+    margin: 2px 20px;
+}
+
+.nothumb {
+    float: left;
+    background: #eee;
+    border: 2px dashed #aaa;
+    text-align: center;
+    margin: 2px 20px;
+    padding: 1em 0.5em 1em 0.5em;
+}
+.reply {
+    padding-right:.3em;
+    padding-bottom:.3em;
+}
+
+blockquote pre {
+    display: inline-block;
+    min-width: 32em;
+    max-width: 80em;
+    overflow: auto;
+    
+    white-space: pre-wrap; 
+    word-wrap: break-word;
+}
+
+.reply blockquote :first-child, form#delform blockquote :first-child {
+    margin-top: 0em;
+}
+.reply blockquote :last-child, form#delform blockquote :last-child {
+    margin-bottom: 0em;
+}
+
+blockquote ol, blockquote ul {
+    display: table; 
+    margin: 0 0 1em 1em;
+    padding-left: 1em;
+}
+
+blockquote p {
+    hyphens: auto;
+}
+
+.reflink a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.reflink a:hover{
+    color: #800000;
+}
+
+.reply .filesize {
+    margin-left: 20px;
+}
+
+.userdelete {
+    float: right;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.doubledash {
+    vertical-align: top;
+    clear: both;
+    float: left;
+}
+
+.moderator {
+    color: #FF0000;
+}
+
+.managebutton {
+    font-size: 15px;
+    height: 28px;
+    margin: 0.2em;
+}
+
+.footer {
+    clear: both;
+    text-align:center;
+}
+
+.rules ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.floatpost {
+    float: right;
+    clear: both;
+}
+
+.login {
+    text-align: center;
+}
+
+div#nav {
+    text-align:center;
+    clear:both;
+}
+div.message, div.error {
+    text-align:center;
+    clear:both;
+}
+div.logo {
+    clear:both;
+}
+div.logo a {
+    text-decoration:none;
+}
+
+span.shortened {
+    font-size:0.9em;
+    color:#666;
+    border-bottom: 1px dotted #666;
+    cursor: pointer;
+}
+
+span.omittedposts {
+    display:block;
+}
+
+.floating {
+    position: fixed;
+    float:right;
+    top:0;
+    right:0;
+}
+
+div.clear, br.clear {
+    clear:left;
+}
+
+div#stats span {
+    vertical-align:top;
+}
+
+
+/* search page */
+.found {
+    margin-left: 1em;
+}
+.found a { 
+    display:block;
+}
+.found cite {
+    background:inherit;
+    color:#789922;
+}
+.found p { 
+    margin-top: 0;
+    font-style: italic;
+    font-size: 0.9em;
+    width: 512px;
+}
+
+form#search {
+    text-align: right;
+}
+/*
+@font-face {
+    font-family: 'BarbieMediumItalic'; 
+    src: url('/css/fonts/BarbieMediumItalic.eot'); 
+    src: local('BarbieMediumItalic'),
+        url('/css/fonts/BarbieMediumItalic.woff') format('woff'),
+        url('/css/fonts/BarbieMediumItalic.ttf') format('truetype'),
+        url('/css/fonts/BarbieMediumItalic.svg#BarbieMediumItalic') format('svg');
+} /* VIP trips font */
+
+
+.postertrip.vip {
+    display: inline-block;
+    color:  #F1B82D 	;
+    position: relative;
+    text-shadow: #CBA135 1px 1px, #DA9100 1px 1px;
+} 
+
+.postertrip.vip:after {
+    content: "♕";
+}
+
+.red {
+    color: red;
+}
+.italic {
+    font-style: italic;
+}  
+
+.diceroll, .spoiler:hover .diceroll {
+    color:green;
+    border-bottom: 1px dotted green;
+    cursor: pointer;
+}
+
+#bantable {
+    border-collapse:collapse;
+}
+
+#bantable th, #bantable td {
+    padding: .2em;
+    border: .1em solid #BBBBBB;
+}
+
+.clientip {
+    font-weight: bold;
+}
+
+/* oekaki */
+
+
+label#with_oek input {
+    margin: 5px;
+    float: left;
+}
+label#with_oek {
+    display: inline-block;
+    text-align: right;
+}
+
+#oek_image_field {
+    float: left;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    background: #fff url("data:image/png;base64,\ iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAHUlEQVQoU2P4jwNcwwEYRjXQRAMu\ CVwGjWqgiQYAfiu/n2xtS7wAAAAASUVORK5CYII=");
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, .9);
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+#oek_image_preview {
+    width: 75px;
+    height: 75px;
+    background-size:auto 75px;
+    background-repeat:no-repeat;
+}
+
+#oek-wrap #oekaki {
+    display: none;
+    visibility: hidden;
+} 
+
+#oek-wrap input[type="checkbox"]:checked ~ #oekaki {
+    display: block;
+    visibility: visible;
+}
+
+#oekaki:target {
+    display: inherit!important;
+    visibility: visible!important;
+}
+
+#with_oek :target  {
+    font-weight: bold;
+}
+
+.ninja {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+.small {
+    font-size: 0.8em;
+}
+
+.countryball {
+    width: 17px;
+    height: 14px;
+    overflow:hidden;
+    display: inline-block;
+    opacity: 0.7;
+}
+
+#postform-fieldset {
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+tr#captcha_tr {display:none;}
+
+/*для куклоскрипта*/
+
+.de-parea hr {
+    clear: both;
+}
+
+.blog {
+    margin: 0 auto;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    max-width: 500px; 
+    background-color: #fafafa;
+}
+
+.blogpost p, .blogpost blockquote {
+    margin: .3em ;
+} 
+
+.bread {
+    margin: .5em;
+    text-align: center;    
+}
+
+
+.triangle {
+    position: absolute;
+    right: .3em;
+    bottom: .3em;
+    cursor: pointer;
+    display: none;
+
+    width: 0px; 
+    height: 0px; 
+    border-left: 2em solid transparent;
+    border-bottom: 2em solid transparent;
+    opacity: 0.7; 
+
+}
+
+td.reply:hover .triangle {
+    display: block;
+}
